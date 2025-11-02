@@ -1,4 +1,5 @@
 '''
+Electricity Bill Estimator
 Write a program to calculate an electricity bill based on units consumed:
 
 Up to 100 units → ₹5/unit
@@ -26,4 +27,5 @@ elif units>=101 and units<=300:
 else:
     total=(units*10)+50
     print(f"high usage with total bill {total}")
+
     
